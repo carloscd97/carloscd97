@@ -10,6 +10,10 @@ body {
     width: 100%;
 }
 
+.text-white {
+    color: white;
+}
+
 .menu {
     position: fixed;
     top: 10%;
@@ -167,7 +171,7 @@ h3 {
     color: white;
 }
 
-.container>a {
+.container>#perfil {
     color: black;
     background-color: white;
     position: absolute;
@@ -180,8 +184,34 @@ h3 {
     padding-top: 12px;
 }
 
-.container>a:hover {
-    background-color: orange;
+.container>#contactar {
+    color: black;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    margin-top: -80%;
+    margin-left: 125px;
+    border-radius: 5px;
+    padding-top: 12px;
+}
+
+.container>#turismo {
+    color: black;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    margin-top: calc(-80% + 60px);
+    margin-left: 125px;
+    border-radius: 5px;
+    padding-top: 12px;
+}
+
+.container>.btn-redirect:hover {
+    background-color: orange !important;
 }
 
 #title-tour {

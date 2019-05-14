@@ -1,4 +1,4 @@
-#tour-place {
+.text-white {
     color: white;
 }
 
@@ -12,10 +12,6 @@
 
 .description {
     color: white;
-}
-
-.menu #tour-place:hover ::div.menu {
-    display: none;
 }
 
 .hide {
