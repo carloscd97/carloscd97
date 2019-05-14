@@ -1,0 +1,72 @@
+.container-contact {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 150px;
+    margin-top: 70px;
+    position: absolute;
+    width: 100%;
+}
+
+.container-contact-form {
+    height: 100%;
+    margin-top: 250px;
+    position: absolute;
+    width: 100%;
+    margin-right: 350px !important;
+    color: white;
+}
+
+.container-contact-form>* {
+    margin-right: 350px !important;
+}
+
+.container-contact>h2 {
+    text-align: center;
+    margin-right: 350px;
+    color: white;
+}
+
+.container-contact>p {
+    text-align: center;
+    margin-right: 350px;
+    color: white;
+}
+
+.row {
+    width: 100%;
+    margin-top: 250px;
+}
+
+.form-control {
+    border: 1px solid #ccd0d4;
+    box-shadow: none
+}
+
+.form-control:focus {
+    border-color: #9fa2a5;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.form-control {
+    -webkit-box-shadow: none;
+}
+
+.form-control {
+    margin: -1px 0 0;
+    border-right: none;
+    border-left: none;
+    width: 500px;
+    border-radius: 5px solid;
+    height: 20px;
+    padding: 5px;
+}
+
+button {
+    color: black;
+    background-color: orange;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+}
