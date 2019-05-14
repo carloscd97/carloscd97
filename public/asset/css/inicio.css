@@ -63,7 +63,7 @@ body {
     transition-timing-function: ease-in-out;
 }
 
-.contenedor-member:hover .cuerpo>.ventana>.foto>.imag {
+.contenedor-member:hover .cuerpo>.ventana>.foto+video>.imag {
     border-radius: 10px;
 }
 
