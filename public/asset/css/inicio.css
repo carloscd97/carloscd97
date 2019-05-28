@@ -210,6 +210,19 @@ h3 {
     padding-top: 12px;
 }
 
+.container>#zozor {
+    color: black;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    margin-top: calc(-80% + 5px);
+    margin-left: 125px;
+    border-radius: 5px;
+    padding-top: 12px;
+}
+
 .container>.btn-redirect:hover {
     background-color: orange !important;
 }
