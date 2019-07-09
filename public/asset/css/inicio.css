@@ -1,0 +1,237 @@
+body {
+    background: url('../../../public/img/index/unc-fondo.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.text-white {
+    color: white;
+}
+
+.menu {
+    position: fixed;
+    top: 10%;
+    left: 30px;
+    width: 0px;
+    background-color: #000;
+    height: 100%;
+    margin-top: 10%;
+}
+
+.menu a {
+    color: white;
+    display: block;
+    padding-top: 50%;
+    padding-bottom: 2.5px;
+}
+
+.contenedor-member {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #DED4D2;
+}
+
+.contenedor-member a label {
+    display: none;
+}
+
+.members {
+    border-radius: 50%;
+    height: 50px !important;
+    width: 50px !important;
+    border: 2px solid #766966;
+}
+
+.contenedor-member:hover {
+    background-color: #E94244;
+    padding-left: 180px;
+    margin-left: -30px;
+    transition-duration: 1s;
+    transition-delay: 0.25s;
+    transition-timing-function: ease-in-out;
+    height: 60px !important;
+}
+
+.contenedor-member:hover .cuerpo {
+    border-radius: 10px;
+    margin-left: 60px !important;
+    display: block;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.contenedor-member:hover .cuerpo>.ventana>.foto+video>.imag {
+    border-radius: 10px;
+}
+
+.datos {
+    margin-top: -120px;
+}
+
+.contenedor-member:hover img {
+    border: 2px solid #fff;
+    opacity: 1;
+    z-index: 1000px;
+}
+
+.contenedor-member:hover ::div.menu div.container {
+    background-color: #fff !important;
+    margin-left: calc(100% - 200px);
+}
+
+.contenedor-member:hover>a label {
+    opacity: 1;
+    z-index: 1;
+    font-size: 20px;
+    position: absolute;
+    display: block;
+    margin-left: -160px;
+    width: 200px;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
+    padding-top: 15px;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+.cuerpo {
+    display: none;
+    margin-top: -150px;
+}
+
+ul {
+    background-color: #000;
+    opacity: 0.8;
+    width: 100%;
+    padding-left: 330px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+ul>li {
+    color: white;
+    font-weight: 10;
+    width: 300px;
+    margin-left: -300px;
+    z-index: 1;
+}
+
+.imag {
+    width: 330px;
+    height: 330px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: -20px;
+    height: 300px;
+    padding-top: 100%;
+    margin-left: calc(100% - 350px);
+    width: 350px;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.gif {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: -15px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.gif-size {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: -70%;
+    margin-left: 135px;
+    border-radius: 50%;
+}
+
+h3 {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin-top: -90%;
+    margin-left: 110px;
+    color: white;
+}
+
+.container>#perfil {
+    color: black;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    margin-top: -80%;
+    margin-left: 125px;
+    border-radius: 5px;
+    padding-top: 12px;
+}
+
+.container>#contactar {
+    color: black;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    margin-top: -80%;
+    margin-left: 125px;
+    border-radius: 5px;
+    padding-top: 12px;
+}
+
+.container>#turismo {
+    color: black;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    margin-top: calc(-80% + 60px);
+    margin-left: 125px;
+    border-radius: 5px;
+    padding-top: 12px;
+}
+
+.container>#zozor {
+    color: black;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    margin-top: calc(-80% + 5px);
+    margin-left: 125px;
+    border-radius: 5px;
+    padding-top: 12px;
+}
+
+.container>.btn-redirect:hover {
+    background-color: orange !important;
+}
+
+#title-tour {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin-top: -880px;
+    margin-left: 110px;
+    color: white;
+}
